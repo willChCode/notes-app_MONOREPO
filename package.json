@@ -7,7 +7,7 @@
     "app"
   ],
   "engines": {
-    "node": "19.0.1",
+    "node": "16x",
     "npm": "8.x"
   },
   "main": "index.js",
