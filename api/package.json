@@ -1,0 +1,46 @@
+{
+  "name": "tareabackend",
+  "version": "1.0.0",
+  "description": "SERVIDOR API REST - notes and users",
+  "main": "index.js",
+  "scripts": {
+    "helper": "nodemon test/helper.js",
+    "start": "cross-env NODE_ENV=production node index.js",
+    "dev": "cross-env NODE_ENV=development nodemon index.js",
+    "test": "cross-env NODE_ENV=test PORT=1213 jest  --detectOpenHandles --verbose test/users.test.js",
+    "test:watch": "npm run test -- --watchAll",
+    "lint": "eslint ."
+  },
+  "author": "willCh",
+  "license": "ISC",
+  "dependencies": {
+    "bcrypt": "^5.1.0",
+    "cors": "2.8.5",
+    "cross-env": "^7.0.3",
+    "dotenv": "^16.0.3",
+    "express": "^4.18.2",
+    "jsonwebtoken": "^8.5.1",
+    "mongoose": "^6.6.7",
+    "mongoose-unique-validator": "^3.1.0",
+    "morgan": "^1.10.0"
+  },
+  "devDependencies": {
+    "jest": "^29.2.2",
+    "nodemon": "^2.0.20",
+    "supertest": "^6.3.1"
+  },
+  "jest": {
+    "testEnvironment": "node"
+  },
+  "directories": {
+    "test": "test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/willChCode/apiRest_notes-users.git"
+  },
+  "bugs": {
+    "url": "https://github.com/willChCode/apiRest_notes-users/issues"
+  },
+  "homepage": "https://github.com/willChCode/apiRest_notes-users#readme"
+}

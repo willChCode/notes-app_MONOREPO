@@ -1,0 +1,114 @@
+.formLogin {
+  border: 1px solid black;
+  /* width: 80%; */
+  width: 300px;
+  margin: 20px auto;
+
+  display: flex;
+  flex-direction: column;
+  place-content: center;
+  place-items: center;
+  gap: 10px;
+
+  color: #443f53;
+  background-color: #ebf1f8;
+  font-family: "Niramit", sans-serif;
+  padding: 16px 0;
+  padding-bottom: 30px;
+  border-radius: 5px;
+}
+.flH1 {
+  /* border: 1px solid black; */
+  margin: 0;
+  padding: 0;
+}
+.flInput {
+  padding: 8px;
+  border: 0;
+  outline: none;
+  border-radius: 5px;
+  color: #443f53;
+  font-size: 14.5px;
+  /* margin-bottom: 10px; */
+}
+.flButton {
+  background-color: #f86a68;
+  box-shadow: 0px 0px 10px #ffbebd;
+  padding: 7px 18px;
+  border: 0;
+  border-radius: 5px;
+  color: #fff;
+  font-size: 15px;
+  cursor: pointer;
+}
+.flLink {
+  text-decoration: none;
+  color: #f86a68;
+}
+.flPError {
+  color: #f86a68;
+  font-size: 13px;
+}
+.formSave {
+  /* border: 1px solid black; */
+  width: 300px;
+  margin: auto;
+
+  display: flex;
+  place-content: center;
+  place-items: center;
+  gap: 10px;
+}
+.getNotas {
+  border: 1px solid black;
+  width: 300px;
+  margin: 15px auto;
+  background-color: #ebf1f8;
+  padding: 10px 30px;
+  font-family: "Niramit", sans-serif;
+}
+.notasTit {
+  /* border: 1px solid black; */
+  font-size: 15px;
+  text-transform: uppercase;
+}
+.notasCon {
+  /* border: 1px solid black; */
+  font-size: 15px;
+  margin-top: -5px;
+}
+.notasImp {
+  padding: 5px 10px;
+  border-radius: 5px;
+  border: 0;
+  margin-bottom: 13px;
+  color: white;
+}
+.notaWelcome {
+  display: flex;
+  flex-direction: column;
+  margin: 10px 0 15px 0;
+  font-family: "Niramit", sans-serif;
+}
+.h1User {
+  text-align: center;
+  color: #443f53;
+}
+.bLogout {
+  background-color: #443f53;
+  color: #fff;
+  margin: auto;
+  padding: 5px 10px;
+  border-radius: 5px;
+  border: 0;
+  cursor: pointer;
+}
+.toggable {
+  display: flex;
+  flex-direction: column;
+  place-content: center;
+  place-items: center;
+}
+.buttonTog {
+  margin-top: 10px;
+}
