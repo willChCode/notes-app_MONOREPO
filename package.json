@@ -12,7 +12,8 @@
   },
   "main": "index.js",
   "scripts": {
-    "build": "npm run build --workspace=app",
+    "build": "SKIP_PREFLIGHT_CHECK=true npm run build --workspace=app",
+    "lint": "eslint ./api ./app",
     "start": "npm run start --workspace=api",
     "dev:api": "npm run build && npm run dev --workspace=api"
   },
@@ -24,6 +25,7 @@
     "standard": "^17.0.0"
   },
   "eslintConfig": {
+    "ignorePatterns": "dist",
     "extends": "./node_modules/standard/eslintrc.json",
     "env": {
       "jest": true
