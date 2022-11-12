@@ -12,7 +12,7 @@
   },
   "main": "index.js",
   "scripts": {
-    "build": "SKIP_PREFLIGHT_CHECK=true npm run build --workspace=app",
+    "build": "npm run build --workspace=app",
     "lint": "eslint ./api ./app",
     "start": "npm run start --workspace=api",
     "dev:api": "npm run build && npm run dev --workspace=api"
